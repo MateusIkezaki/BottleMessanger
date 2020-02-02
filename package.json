@@ -1,0 +1,19 @@
+{
+  "name": "randommessages",
+  "version": "1.0.0",
+  "description": "receive and send random messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusIkezaki/RandomMessages.git"
+  },
+  "author": "Mateus Ikezaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateusIkezaki/RandomMessages/issues"
+  },
+  "homepage": "https://github.com/MateusIkezaki/RandomMessages#readme"
+}

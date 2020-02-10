@@ -9,6 +9,14 @@
     font-family: 'Roboto', 'sans-serif';
 }
 
+.credits{
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+    float: right;
+    margin-top: 1%;
+    font-size: 5px;
+}
+
 .author h3{
     color: white;
     font-family: 'Roboto', 'sans-serif';
@@ -172,6 +180,10 @@
 
     .sendbutton img{
         width: 55px;
+    }
+
+    .credits{
+        font-size: 10px;
     }
 }
 

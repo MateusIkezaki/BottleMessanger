@@ -9,6 +9,9 @@ const Begin = async display => {
     const contentid = Math.floor(Math.random()*answer.length)
     welcome.textContent = answer[contentid].rawdata
     author.textContent = `- ${answer[contentid].nickname}`
+    welcome.style.opacity = 1;
+    next.style.opacity = 1; 
+    author.style.opacity = 1; 
 }
 
 const ChangeMessage = () => {
@@ -18,7 +21,7 @@ const ChangeMessage = () => {
             welcome.style.opacity = 0
             next.style.opacity = 0
             author.style.opacity = 0
-            window.setTimeout('welcome.style.opacity = 1; next.style.opacity = 1; author.style.opacity = 1; Begin()', 2000)
+            window.setTimeout(Begin, 2000)
             window.setTimeout('canproceed = true', 4000)
             canproceed = false
         }  

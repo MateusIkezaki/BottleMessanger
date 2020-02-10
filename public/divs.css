@@ -33,7 +33,7 @@
 
 .intromessage{
     height: 80%;
-    background-color: tomato;
+    /* background-color: tomato; */
     overflow: auto;
     position: fixed;
     margin-left: 2%;
@@ -114,15 +114,14 @@
     position: fixed;
     float: left;
     mix-blend-mode: darken;
+    width: auto;
+    height: 100%;
     filter: brightness(50%);
 }
 
 /*iPad*/
 @media only screen and (min-width: 768px)
 {
-    .beach{
-        height: 1020px;
-    }
 
     .intromessage{
         height: 800px;
@@ -176,6 +175,8 @@
     }
 }
 
+
+/*iPad Pro*/
 @media only screen and (min-width: 1000px){
     .intromessage{
         height: 80%;
@@ -231,6 +232,7 @@
     }
 }
 
+/*Desktop*/
 @media only screen and (min-width: 1200px){
 
     .signed{
@@ -272,6 +274,11 @@
     }
     .author h3{
         font-size: 40px;
+    }
+
+    .beach{
+        width: 100%;
+        height: auto;
     }
 }
 
